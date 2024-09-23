@@ -1,0 +1,80 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+main {
+    background-color: #f4d04e;
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.preview-card {
+    height: 425px;
+    width: 300px;
+    background-color: #fff;
+    border: solid black 1px;
+    border-radius: 15px;
+    box-shadow: 5px 5px black;
+    padding: 20px;
+}
+
+ .preview-card-top {
+    height: 45%;
+}
+.preview-card-top img { 
+    height: 94%;
+    border-radius: 10px; 
+}
+
+.preview-card-bottom {
+    padding: 25px 0 0 0; 
+}
+
+.heading { 
+    display: inline; 
+    background-color: #f4d04e;
+    padding: 5px 10px;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-family: "figtree"
+}
+
+.headingTwo {
+    font-family: "Figtree"
+}
+
+.headingTwo:hover {
+    color: #f4d04e;
+}
+
+.date { 
+    font-size: 1rem;
+    padding: 20px 5px 10px 0px;
+    font-family: "figtree"
+}
+
+.description {
+    font-size: 0.9rem;
+    font-family: "Figtree";
+    padding: 10px 0 0 0;
+    color: rgb(107, 107, 107)
+}
+
+.greg-hooper {
+    display: flex;
+}
+
+.greg-hooper img {
+    height: 1.8rem;
+    padding: 20px 0 0 0;
+}
+.greg-hooper h5 {
+    padding: 27px 0 0 10px;
+    font-family: "Figtree";
+    font-weight: 900;
+}
